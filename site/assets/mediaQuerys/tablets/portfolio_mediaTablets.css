@@ -1,0 +1,101 @@
+/*########## TABLETS ##########*/
+/* surface duo */
+@media all and (min-width: 416px) and (max-width: 540px) {
+  body {
+    display: block;
+  }
+  .welcome_txt {
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+  #sec_projects {
+    margin-left: 5px;
+  }
+  footer {
+    position: static;
+    grid-template-areas:
+      "social contact"
+      "terms terms";
+  }
+}
+/* iPad mini */
+@media all and (min-width: 541px) and (max-width: 770px) {
+  body {
+    display: block;
+  }
+  .welcome_title {
+    font-size: 100px;
+  }
+  .welcome_txt {
+    font-size: 25px;
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+  #sec_projects {
+    margin-left: 5px;
+  }
+  #sec_demo {
+    font-size: 20px;
+  }
+  footer {
+    font-size: 20px;
+    position: static;
+    grid-template-areas:
+      "social contact"
+      "terms terms";
+  }
+}
+/* iPad air */
+@media all and (min-width: 771px) and (max-width: 820px) {
+  body {
+    display: block;
+  }
+  .welcome_title {
+    font-size: 100px;
+  }
+  .welcome_txt {
+    font-size: 25px;
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+  #sec_projects {
+    margin-left: 5px;
+  }
+  #sec_demo {
+    font-size: 20px;
+  }
+  footer {
+    font-size: 20px;
+    position: static;
+    grid-template-areas:
+      "social contact"
+      "terms terms";
+  }
+}
+/* suface pro7 */
+@media all and (min-width: 821px) and (max-width: 915px) {
+  body {
+    display: block;
+  }
+  .welcome_title {
+    font-size: 100px;
+  }
+  .welcome_txt {
+    font-size: 30px;
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+  #sec_projects {
+    margin-left: 5px;
+  }
+  #sec_demo {
+    font-size: 25px;
+  }
+  footer {
+    font-size: 30px;
+    position: static;
+    grid-template-areas:
+      "social contact"
+      "terms terms";
+  }
+}

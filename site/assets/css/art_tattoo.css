@@ -1,0 +1,62 @@
+header {
+  background-color: gainsboro;
+  padding: 5px;
+  min-width: 100%;
+}
+.nav_con {
+  display: flex;
+}
+.img_nav {
+  height: 75px;
+  width: 150px;
+}
+.nav_links {
+  font-size: 20px;
+  margin-top: 25px;
+}
+a:link {
+  margin-left: 10px;
+  text-decoration: none;
+}
+main{
+    margin-bottom: 25px;
+}
+.tattoo_con {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: repeat(4, auto);
+}
+.tat_img {
+  height: 250px;
+  width: 400px;
+}
+footer {
+  background-color: gainsboro;
+  padding: 5px; 
+  bottom: 0;
+  min-width: 100%;
+  display: grid;
+  grid-template-areas: "social  social terms terms contact contact";
+}
+#social_media {
+  grid-area: social;
+  margin-left: 10px;
+}
+.footer_icons {
+  margin-top: -30px;
+  height: 35px;
+}
+#creator_terms {
+  grid-area: terms;
+  text-align: center;
+  margin-top: 10px;
+}
+
+#contact_info {
+  grid-area: contact;
+  text-align: center;
+}
+.contacts {
+  margin-top: -30px;
+  margin-left: 20px;
+}

@@ -1,0 +1,167 @@
+body {
+  display: grid;
+  grid-template-areas:
+    "header header header header"
+    "main main main projects"
+    "main main main projects"
+    "main main main projects"
+    "demo demo demo demo"
+    "footer footer footer footer";
+  background-image: linear-gradient(to right, green, whitesmoke, orange);
+}
+#header_con {
+  grid-area: header;
+  background-color: gainsboro;
+  padding: 5px;
+}
+.nav_con {
+  display: flex;
+}
+.img_nav {
+  height: 75px;
+  width: 150px;
+}
+.nav_links {
+  margin-top: 25px;
+}
+a:link {
+  margin-left: 10px;
+  text-decoration: none;
+}
+main {
+  grid-area: main;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+.welcome_title {
+  animation-name: welcomeTitle;   
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  font-family: segoe script;
+  font-size: 75px;
+  text-align: center;
+  text-shadow: 5px 5px 8px rgb(255, 60, 0);
+}
+@keyframes welcomeTitle {
+  0% {
+    color: azure;
+  }
+  25% {
+    color: yellow;
+  }
+  50% {
+    color: azure;
+  }
+  75% {
+    color: yellow;
+  }
+  100% {
+    color: azure;
+  }
+}
+.welcome_div {
+  background-color: rgba(0, 0, 0, 0.623);
+  border-color: goldenrod;
+  border-style: double;
+  border-width: 5px;
+  box-shadow: 3px 3px 9px 3px black;
+  margin-top: 50px;
+  margin-left: 50px;
+  padding: 20px;
+}
+.welcome_txt {
+  color: whitesmoke;
+  font-size: 18px;
+  margin-right: 150px;
+  margin-left: 150px;
+  text-indent: 50px;
+}
+#sec_projects {
+  grid-area: projects;
+  text-align: center;
+  margin-left: 50px;
+}
+.projects {
+  animation-name: projectTitle;   
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  font-size: 30px;
+  font-family: segoe script;
+  text-shadow: 5px 5px 7px rgb(255, 60, 0);
+  margin-top: 10px;
+}
+@keyframes projectTitle {
+  0% {
+    color: azure;
+  }
+  25% {
+    color: greenyellow;
+  }
+  50% {
+    color: azure;
+  }
+  75% {
+    color: greenyellow;
+  }
+  100% {
+    color: azure;
+  }
+}
+#modal_triggers {
+  font-size: 15px;
+  padding: 2px;
+  margin: 2px;
+}
+.card-text{
+  text-indent: 25px;
+  text-align: left;
+}
+.img_getHub {
+  height: 25px;
+}
+
+#sec_demo {
+  grid-area: demo;
+  text-align: center;
+  margin: 25px;
+  color: whitesmoke;
+  background-color: rgba(0, 0, 0, 0.534);
+  border-style: double;
+  border-width: 5px;
+  box-shadow: 8px 8px 8px black;
+}
+
+footer {
+  grid-area: footer;
+  position: fixed;
+  bottom: 0;
+  min-width: 100%;
+  background-color: gainsboro;
+  padding: 5px;
+  display: grid;
+  grid-template-areas: "social terms contact";
+}
+#social_media {
+  grid-area: social;
+  margin-left: 10px;
+}
+.footer_icons {
+  margin-top: -30px;
+  height: 35px;
+}
+#creator_terms {
+  grid-area: terms;
+  text-align: center;
+  margin-top: 10px;
+}
+.terms {
+  margin-top: -45px;
+}
+#contact_info {
+  grid-area: contact;
+  text-align: center;
+}
+.contacts {
+  margin-top: -45px;
+  margin-left: 20px;
+}

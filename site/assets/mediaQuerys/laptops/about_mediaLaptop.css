@@ -1,0 +1,91 @@
+/*########## LAPTOPS ##########*/
+/* surface pro7 */
+@media all and (max-width: 913px) {
+  header {
+    font-size: 25px;
+  }
+  main {
+    display: block;
+  }
+  aside {
+    display: none;
+  }
+  #about_div {
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  .bio_con {
+    font-size: 25px;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  .bio_con2 {
+    font-size: 23px;
+    margin-right: 25px;
+    margin-left: 25px;
+  }
+  #nav_buttons {
+    display: contents;
+  }
+  footer {
+    font-size: 25px;
+    grid-template-areas:
+      "social contact"
+      "terms terms";
+  }
+}
+/* nest hub, iPad mini(rotate screen) */
+@media all and (min-width: 916px) and (max-width: 1025px) {
+  main {
+    display: block;
+  }
+  aside {
+    display: none;
+  }
+  #about_div {
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  #nav_buttons {
+    display: contents;
+  }
+  footer {
+    grid-template-areas: "social terms contact";
+  }
+}
+/* iPad air(rotate screen) */
+@media all and (min-width: 1026px) and (max-width: 1180px) {
+  main {
+    display: block;
+  }
+  #about_div {
+    margin-right: 60px;
+    margin-left: 160px;
+  }
+}
+/* nest hub max */
+@media all and (min-width: 1181px) and (max-width: 1280px) {
+  #about_div {
+    margin-right: 5px;
+    margin-left: 110px;
+  }
+}
+/* surface pro7(rotate screen) */
+@media all and (min-width: 1281px) and (max-width: 1370px) {
+  #header_con {
+    font-size: 25px;
+  }
+  #about_div {
+    margin-right: 5px;
+    margin-left: 110px;
+  }
+  .bio_con {
+    font-size: 25px;
+  }
+  .bio_con2 {
+    font-size: 22px;
+  }
+  footer {
+    font-size: 20px;
+  }
+}

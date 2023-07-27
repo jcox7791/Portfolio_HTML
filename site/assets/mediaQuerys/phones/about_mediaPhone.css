@@ -1,0 +1,225 @@
+/*########## PHONES ##########*/
+/* samsung galaxy fold */
+@media all and (max-width: 280px) {
+  aside{display: none;}
+  #nav_buttons{
+    display: contents;
+  }
+ #about_div {
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  .sec_title {
+    text-shadow: 3px 3px gold;
+  }
+  .welcome_title {
+    font-size: 35px;
+  }
+  .welcome_title1 {
+    font-size: 25px;
+  }
+  .bio_con {
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 10px;
+  }
+  .img_deg {
+    height: 150px;
+  }
+  .bio_con2 {
+    margin-right: 25px;
+    margin-left: 25px;
+  }
+  .con_certs {
+    display: block;
+  }
+  footer {
+    text-align: center;
+    display: block;
+  }
+}
+/* samsung galaxy S8 */
+@media all and (min-width: 281px) and (max-width: 360px) {
+  aside{display: none;}
+  #nav_buttons{
+    display: contents;
+  }
+ #about_div {
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  .sec_title {
+    text-shadow: 3px 3px gold;
+  }
+  .welcome_title {
+    font-size: 35px;
+  }
+  .welcome_title1 {
+    font-size: 25px;
+  }
+  .img_family {
+    float: left;
+    height: 200px;
+  }
+  .bio_con {
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 10px;
+  }
+  .img_deg {
+    height: 150px;
+  }
+  .bio_con2 {
+    margin-right: 25px;
+    margin-left: 25px;
+  }
+  .con_certs {
+    display: block;
+  }
+  footer {
+    text-align: center;
+    display: block;
+  }
+  .contact_title {
+    margin-top: 10px;
+  }
+}
+/* iPhone SE */
+@media all and (min-width: 361px) and (max-width: 375px) {
+  aside{display: none;}
+  #nav_buttons{
+    display: contents;
+  }
+ #about_div {
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  .sec_title {
+    text-shadow: 3px 3px gold;
+  }
+  .welcome_title {
+    font-size: 35px;
+  }
+  .welcome_title1 {
+    font-size: 25px;
+  }
+  .img_family {
+    float: left;
+    height: 210px;
+  }
+  .bio_con {
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 10px;
+  }
+  .img_deg {
+    height: 150px;
+  }
+  .bio_con2 {
+    margin-right: 25px;
+    margin-left: 25px;
+  }
+  .con_certs {
+    display: block;
+  }
+  footer {
+    text-align: center;
+    display: block;
+  }
+  .contact_title {
+    margin-top: 10px;
+  }
+}
+/* iPhone 12pro, pixel 5 */
+@media all and (min-width: 376px) and (max-width: 395px) {
+  aside{display: none;}
+  #nav_buttons{
+    display: contents;
+  }
+ #about_div {
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  .sec_title {
+    text-shadow: 3px 3px gold;
+  }
+  .welcome_title {
+    font-size: 35px;
+  }
+  .welcome_title1 {
+    font-size: 25px;
+  
+  }
+  .img_family {
+    float: left;
+    height: 225px;
+  }
+  .bio_con {
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 10px;
+  }
+  .img_deg {
+    height: 150px;
+  }
+  .bio_con2 {
+    margin-right: 25px;
+    margin-left: 25px;
+  }
+  .con_certs {
+    display: block;
+  }
+  footer {
+    text-align: center;
+    display: block;
+  }
+  .contact_title {
+    margin-top: 10px;
+  }
+}
+/* iPhone XR, samsung S20 ultra and galaxyA51/71 */
+@media all and (min-width: 396px) and (max-width: 415px) {
+  aside{display: none;}
+  #nav_buttons{
+    display: contents;
+  }
+ #about_div {
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  .sec_title {
+    text-shadow: 3px 3px gold;
+  }
+  .welcome_title {
+    font-size: 35px;
+  }
+  .welcome_title1 {
+    font-size: 25px;
+  }
+  .img_family {
+    float: left;
+    height: 225px;
+  }
+  .bio_con {
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 10px;
+  }
+  .img_deg {
+    height: 150px;
+  }
+  .bio_con2 {
+    margin-right: 25px;
+    margin-left: 25px;
+  }
+  .con_certs {
+    display: block;
+  }
+  footer {
+    text-align: center;
+    display: block;
+  }
+  .contact_title {
+    margin-top: 10px;
+  }
+}

@@ -1,0 +1,45 @@
+/*########## LAPTOPS ##########*/
+/* nest hub, iPad mini(rotate screen) */
+@media all and (min-width: 916px) and (max-width: 1025px) {
+  .welcome_txt {
+    margin-right: 5px;
+    margin-left: 70px;
+  }
+  footer {
+    position: static;
+  }
+}
+/* iPad air(rotate screen) */
+@media all and (min-width: 1026px) and (max-width: 1180px) {
+  .welcome_txt {
+    margin-right: 5px;
+    margin-left: 70px;
+  }
+  footer {
+    position: static;
+  }
+}
+/* nest hub max */
+@media all and (min-width: 1181px) and (max-width: 1280px) {
+  footer {
+    position: static;
+  }
+}
+/* surface pro7(rotate screen) */
+@media all and (min-width: 1281px) and (max-width: 1370px) {
+  .nav_links,
+  #main_con {
+    font-size: 25px;
+  }
+  .welcome_txt {
+    margin-right: 5px;
+    margin-left: 50px;
+  }
+  #sec_demo {
+    font-size: 25px;
+  }
+  footer {
+    position: static;
+    font-size: 25px;
+  }
+}

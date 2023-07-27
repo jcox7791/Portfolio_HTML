@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>James Cox</title>
+    <!-- css -->
+    <link rel="stylesheet" href="./assets/css/portfolio.css">
+    <!-- media-query phones -->
+    <link rel="stylesheet" href="./assets/mediaQuerys/phones/portfoilio_mediaPhone.css">
+    <!-- media-query tablet -->
+    <link rel="stylesheet" href="./assets/mediaQuerys/tablets/portfolio_mediaTablets.css">
+    <!-- media-query laptops -->
+    <link rel="stylesheet" href="./assets/mediaQuerys/laptops/portfolio_mediaLaptop.css">
+    <!-- ########## DO NOT TOUCH from here down!!! ########## -->
+    <!-- bootstrap css ##### change link on the streets ##### -->
+    <link rel="stylesheet" href="./bootstrap/dist/css/bootstrap.min.css">
+    <!-- JQuery -->
+    <script defer src="./jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap  -->
+    <script defer src="./bootstrap/dist/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <!-- navigation -->
+    <header id="header_con">
+        <nav class="nav_con">
+            <a class="" href="./index.html">
+                <!-- ########## placeholder needs to be replaced ########## -->
+                <img class="img_nav" src="./assets/images/placeHolders/street_art/streetart4.jpg"
+                    alt="image of james cox">
+            </a>
+            <div class="nav_links">
+                <a class="about_link" href="./about.html">About</a>
+                <a href="./art_gallaryLanding.html">Gallary</a>
+            </div>
+        </nav>
+    </header>
+    <!-- portfolio welcome -->
+    <main>
+        <h2 class="welcome_title">Welcome to my portfolio</h2>
+        <div class="welcome_div">
+            <p class="welcome_txt">
+                As I have said the majority of my life has been spent in the design field either as a metal fabricator
+                or a
+                tattoo artist. It wasn’t till a hiccup in my life that I was introduced to the marvels of coding world
+                and
+                let me tell you what an experience it was, right of the bat, deep left field and out of the ball park I
+                flew. I mean learning HTML5, CSS, flex-box and grid was a blast all these tools at my figure tips and I
+                never knew. I’m telling you what a shame! When it came to JavaScript I had to take a step back alongside
+                with a double take. I mean so much going on local, global, mapping, looping, classes and functions oh
+                my.
+            </p>
+            <p class="welcome_txt">
+                Now with all silliness aside I was totally amerced into the matrix and going digital. Then came the
+                front-end library’s and the overwhelming power of jQuery, Bootstrap, Sass and my introduction to React
+                and
+                Redux. This is where my OCD took over, loving the file management with the life-cycle, event-listeners
+                and
+                even set-state capabilities of React. I was fixated with this language and knew if I was going to become
+                a
+                coder this is where I was meant to be. So from this point forward in my coding boot-camp React was my
+                platform, not that you can tell at the moment. Due to a data dump I lost all my projects, but don’t
+                worry as
+                you are reading this I’m solving that problem.
+            </p>
+            <p class="welcome_txt">
+                Therefore, with my problem solving capabilities and the new found insight on having buck-ups in place,
+                compiled with the strong understanding of web development has allowed me to become the software
+                developer
+                I am today.
+            </p>
+        </div>
+    </main>
+    <!-- Projects -->
+    <section id="sec_projects">
+        <p class="projects">Coding Projects</p>
+        <div id="modal_con">
+            <!-- Modal-trigger "sinner&saints" -->
+            <button id="modal_triggers" type="button" class="btn btn-outline-dark" data-bs-toggle="modal"
+                data-bs-target="#sinner_saints">
+                <img src="./assets/images/screenShots/sinner&saints.png" alt="" style="height: 100px;">
+                <p style="font-family: segoe script;">More info</p>
+            </button>
+            <!-- Modal for "sinner&saints" -->
+            <div id="sinner_saints" class="modal fade" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Sinner's & Saints</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="./assets/images/screenShots/sinner&saints.png" alt="servey form"
+                                style="height: auto; max-width: 100%;">
+                            <p class="card-text">
+                                This web site was developed for a mock up bar and grill restaurant in whereas to
+                                showcases
+                                their
+                                available cuisine and events that are provide at the fine establishment. Hence, allowing
+                                potential customers the ability to browse by meal, while also seeing more detailed
+                                information
+                                about a selected dish. Therefore, not to be limited to but including a full description
+                                of
+                                the
+                                pricing, calories, rating, drink pairings, and allergies. Additionally, a potential
+                                customer
+                                may
+                                rate dishs and or preview the restaurants reviews and possibly leaving one of their own.
+                            </p>
+                            <p>
+                                Also this project was developed by a team, where I was the scrum master.
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <!-- need to link the project to getHub account  -->
+                            <a href="#" target="_blank" class="btn btn-primary">
+                                <img src="./assets/images/icons/getHub/icon.png" alt="getHub icon" class="img_getHub">
+                                getHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal-trigger "cox's kitchen"  -->
+            <button id="modal_triggers" type="button" class="btn btn-outline-dark" data-bs-toggle="modal"
+                data-bs-target="#coxs_kitchen">
+                <img src="./assets/images/screenShots/coxsKitchen.png" alt="" style="height: 100px;">
+                <p style="font-family: segoe script;">More info</p>
+            </button>
+            <!-- Modal for "cox's kitchen" -->
+            <div id="coxs_kitchen" class="modal fade" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Cox's Kitchen</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="./assets/images/screenShots/coxsKitchen.png" alt="servey form"
+                                style="height: auto; max-width: 100%;">
+                            <p class="card-text">
+                                This web site was developed to showcase all of my favorite recipes from appetizers, baking, candy, hamburgers & sandwich and even meals for the health concuss individuals. Giving them all kind of meal selections to improve upon their lives.
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <!-- need to link the project to getHub account  -->
+                            <a href="#" target="_blank" class="btn btn-primary">
+                                <img src="./assets/images/icons/getHub/icon.png" alt="getHub icon" class="img_getHub">
+                                getHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal-trigger "my web-site" -->
+            <button id="modal_triggers" type="button" class="btn btn-outline-dark" data-bs-toggle="modal"
+                data-bs-target="#my_landing">
+                <!-- code coming soon place holder -->
+                <img src="./assets/images/screenShots/htmlProfileLanding.png" alt="james cox landing page"
+                    style="height: 100px; width: 200px;">
+                <p style="font-family: segoe script;">More info</p>
+            </button>
+            <!-- Modal for "my web-site" -->
+            <div id="my_landing" class="modal fade" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">My Landing Page</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="./assets/images/screenShots/htmlProfileLanding.png" alt="james cox landing page"
+                                style="height: auto; max-width: 100%;">
+                            <p class="card-text">
+                                This is my personal web site and consists of a few landing page that allows any and all to understand who I am as a person and my accomplishment. Also I have provided the user with a short bio on myself within my landing page, while also giving them an interactive experience by way of a navigation-bar. Therefore, allowing them to dig deeper into my background by way of an about page and portfolio page.
+                            </p>
+                            <p class="card-text">
+                                The about landing page is where I have lay-ed it all out on the line for all to see.
+                                Hopefully allowing the viewer to understand me just that much more, maybe even feel like
+                                they have walked a mile in my shoes. I have also added some cool navigational links to
+                                this page for faster in-page navigation to move about with ease, while highlighting my
+                                life.
+                            </p>
+                            <p class="card-text">
+                                Whereas, my portfolio landing page I have taken the time to give a little
+                                background bio on my coding experiences and to showcase coding projects. Also giving the
+                                user the ability to navigate to the GitHub platform for further inspection of any and
+                                all of my public sourced code.
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <!-- need to link the project to getHub account  -->
+                            <a href="#" target="_blank" class="btn btn-primary">
+                                <img src="./assets/images/icons/getHub/icon.png" alt="getHub icon" class="img_getHub">
+                                getHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal-trigger "creative cyber design" -->
+            <button id="modal_triggers" type="button" class="btn btn-outline-dark" data-bs-toggle="modal"
+                data-bs-target="#creative_cyber_design">
+                <img src="./assets/images/screenShots/creativeCyberDesign.png" alt="" style="height: 100px;">
+                <p style="font-family: segoe script;">More info</p>
+            </button>
+            <!-- Modal for "creative cyber design" -->
+            <div class="modal fade" id="creative_cyber_design" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Creative Cyber Designs</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="./assets/images/screenShots/creativeCyberDesign.png" alt="creative cyber designs"
+                                style="height: auto; max-width: 100%;">
+                            <p class="card-text">
+                                Creative Cyber Designs is a new and up coming web developing company that first provides
+                                the user with an interactive landing page, giving them a navigation-bar, a greeting and
+                                compounded with a short bio on company. This web site was developed to showcases the
+                                company's designing capabilities and the pricing for possible projects.
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <!-- need to link the project to getHub account  -->
+                            <a href="#" target="_blank" class="btn btn-primary">
+                                <img src="./assets/images/icons/getHub/icon.png" alt="getHub icon" class="img_getHub">
+                                getHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal-trigger "clock" -->
+            <button id="modal_triggers" type="button" class="btn btn-outline-dark" data-bs-toggle="modal"
+                data-bs-target="#clock">
+                <img src="./assets/images/screenShots/clock.png" alt="" style="height: 100px;">
+                <p style="font-family: segoe script;">More info</p>
+            </button>
+            <!-- Modal for "clock" -->
+            <div class="modal fade" id="clock" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Clock</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="./assets/images/screenShots/clock.png" alt="servey form"
+                                style="height: auto; max-width: 100%;">
+                            <p class="card-text">This is a simple application that allows a user to have a clock displayed.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <!-- need to link the project to getHub account  -->
+                            <a href="#" target="_blank" class="btn btn-primary">
+                                <img src="./assets/images/icons/getHub/icon.png" alt="getHub icon" class="img_getHub">
+                                getHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal-trigger "survay form" -->
+            <button id="modal_triggers" type="button" class="btn btn-outline-dark" data-bs-toggle="modal"
+                data-bs-target="#survay_form">
+                <img src="./assets/images/screenShots/surveyForm.png" alt="" style="height: 100px;">
+                <p style="font-family: segoe script;">More info</p>
+            </button>
+            <!-- Modal for "survay form" -->
+            <div class="modal fade" id="survay_form" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Survey Form</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="./assets/images/screenShots/surveyForm.png" alt="servey form"
+                                style="height: auto; max-width: 100%;">
+                            <p class="card-text">This is a simple and basic form that allows the user to interact
+                                through
+                                inputs provided by a developer.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <!-- need to link the project to getHub account  -->
+                            <a href="#" target="_blank" class="btn btn-primary">
+                                <img src="./assets/images/icons/getHub/icon.png" alt="getHub icon" class="img_getHub">
+                                getHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal-trigger "coming soon" -->
+            <button id="modal_triggers" type="button" class="btn btn-outline-dark" data-bs-toggle="modal"
+                data-bs-target="#coming_soon">
+                <!-- code coming soon place holder -->
+                <img src="./assets/images/comingSoon/comingSoon.png" alt="" style="height: 100px; width: 200px;">
+                <p style="font-family: segoe script;">More info</p>
+            </button>
+            <!-- Modal for "coming soon" -->
+            <div id="coming_soon" class="modal fade" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">More to come!!</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body" style="background-color: black;">
+                            <img src="./assets/images/comingSoon/comingSoon.png" alt="servey form"
+                                style="height: auto; max-width: 100%;">
+                            <p class="card-text" style="color: whitesmoke;">To see more from me go check out my getHub
+                                account!</p>
+                        </div>
+                        <div class="modal-footer">
+                            <!-- need to link the project to getHub account  -->
+                            <a href="#" target="_blank" class="btn btn-primary">
+                                <img src="./assets/images/icons/getHub/icon.png" alt="getHub icon" class="img_getHub">
+                                getHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- info -->
+    <footer>
+        <div id="social_media">
+            <p class="follow_title">Follow me&#64;:</p>
+            <a href="#" target="_blank">InDeed</a>
+            <a href="#" target="_blank">
+                <img src="./assets/images/icons/getHub/icon.png" alt="getHub icon" class="footer_icons">
+            </a>
+            <a href="#" target="_blank">Twitter</a>
+            <a href="#" target="_blank" class="footer_icons">Facebook</a>
+        </div>
+        <div id="creator_terms">
+            <p class="creator">Creative Cyber Designs&copy;2022</p>
+            <a href="#" target="_blank">
+                <p class="terms">Terms of Service</p>
+            </a>
+        </div>
+        <div id="contact_info">
+            <p class="contact_title">Contact Info:</p>
+            <a href="mailto:/">
+                <p class="contacts">jcox.jc77@gmail.com</p>
+            </a>
+        </div>
+    </footer>
+</body>
+
+</html>

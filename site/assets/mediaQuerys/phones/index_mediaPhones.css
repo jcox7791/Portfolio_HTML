@@ -1,0 +1,130 @@
+/*########## PHONES ##########*/
+/* samsung galaxy fold */
+@media all and (max-width: 280px) {
+  .con_welcome {
+    display: block;
+    margin-left: 5px;
+    margin-top: 5px;
+  }
+  .con_welcomeIntro {
+    margin-top: 5px;
+    margin-left: -5px;
+  }
+  .profile_img {
+    height: 194px;
+    width: 270px;
+  }
+  .con_intro {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  footer {
+    position: static;
+    text-align: center;
+    display: block;    
+  }
+}
+/* samsung galaxy S8 */
+@media all and (min-width: 281px) and (max-width: 360px) {
+  a:link {
+    margin-left: 5px;
+  }
+  .con_welcome {
+    display: block;
+    margin-left: 5px;
+    margin-top: 5px;
+  }
+  .con_welcomeIntro {
+    margin-top: 5px;
+    margin-left: -5px;
+  }
+  .profile_img {
+    height: 250px;
+    width: 350px;
+  }
+  .con_intro {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  footer {
+    position: static;
+    display: block;
+    text-align: center;
+    margin-top: -40px;
+  }
+}
+/* iPhone SE */
+@media all and (min-width: 361px) and (max-width: 375px) {
+  .con_welcome {
+    display: block;
+    margin-left: 5px;
+  }
+  .con_welcomeIntro {
+    margin-top: 10px;
+    margin-left: 5px;
+  }
+  .profile_img {
+    height: 260px;
+    width: 365px;
+  }
+  .con_intro {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  footer {
+    display: block;
+    text-align: center;
+    position: static;
+    margin-top: -35px;
+  }
+}
+/* iPhone 12pro, pixel 5 */
+@media all and (min-width: 376px) and (max-width: 395px) {
+  .con_welcome {
+    display: block;
+    margin-left: 5px;
+  }
+  .profile_img {
+    height: 270px;
+    width: 380px;
+  }
+  .con_welcomeIntro {
+    margin-top: 5px;
+    margin-left: -5px;
+  }
+  .con_intro {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  footer {
+    position: static;
+    display: block;
+    text-align: center;
+    margin-top: -35px;
+  }
+}
+/* iPhone XR, samsung S20 ultra and galaxyA51/71 */
+@media all and (min-width: 396px) and (max-width: 415px) {
+  .con_welcome {
+    display: block;
+    margin-left: 5px;
+  }
+  .profile_img {
+    height: 285px;
+    width: 405px;
+    /* margin-left: 1px; */
+  }
+  .con_welcomeIntro {
+    margin-top: 5px;
+    margin-left: -5px;
+  }
+  .con_intro {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  footer {
+    display: block;
+    position: static;
+    text-align: center;
+  }
+}
