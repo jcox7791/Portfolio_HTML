@@ -99,6 +99,10 @@ aside{
 .artGallaryBtn_div{
   margin-bottom: 10px;
 }
+.vid-tat{
+  width: 300px;
+  height: 200px;
+}
 footer {
   background-color: gainsboro;
   padding: 5px;
